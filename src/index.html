@@ -11,7 +11,7 @@
 
 <body class="grid grid-cols-[1fr_5fr] h-screen">
     <!-- SideBar -->
-    <div id="sidebar" class="bg-blue-400 h-full justify-items-center w-full grid grid-rows-[1fr_10fr]">
+    <div id="sidebar" class=" bg-blue-400 justify-items-center w-full grid grid-rows-[1fr_10fr]">
         <div class="text-white font-bold text-2xl place-self-center align-s">
             Dashboard
         </div>
@@ -82,9 +82,9 @@
         <!-- Page Content -->
         <div class="bg-black/20 grid grid-cols-[3fr_1fr] p-4">
             <div>
-                <div>Your Projects</div>
-                <div class="grid grid-cols-[200px_200px] grid-rows-[200px_200px_200px] p-4 gap-5">
-                    <div class="bg-white rounded-2xl grid grid-cols-[10px_1fr] overflow-hidden">
+                <div class="font-bold text-2xl shadow-3xl">Your Projects</div>
+                <div class="grid grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] p-4 gap-5">
+                    <div class="bg-white rounded-2xl grid grid-cols-[10px_1fr]  overflow-hidden">
                         <div class="bg-amber-400"></div>
                         <div class="grid grid-rows-[1fr_8fr_1fr] p-4 gap-2">
                             <div>Make a Micro Universe</div>
@@ -165,7 +165,7 @@
 
                 </div>
             </div>
-            <div class="grid grid-rows-2 gap-2">
+            <div class="flex flex-col gap-2">
                 <!-- Announchemnts -->
                 <div>
                     <div class="font-bold text-[20px] mb-2">Announcments</div>
